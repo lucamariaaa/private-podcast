@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+
   <channel>
+    <!-- Podcast allgemein -->
     <title>Privater Podcast</title>
     <link>https://lucamariaaa.github.io/private-podcast/</link>
-    <description>Nur für ausgewählte Personen.</description>
+    <description>Ein privater Podcast – wöchentlich nach Kalenderwochen.</description>
     <language>de</language>
 
+    <!-- Apple Podcasts Metadaten -->
+    <itunes:author>Luca</itunes:author>
+    <itunes:summary>Ein privater Podcast – wöchentlich nach Kalenderwochen.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://raw.githubusercontent.com/lucamariaaa/private-podcast/main/cover.png"/>
+
+    <!-- EPISODE: Kalenderwoche 1 -->
     <item>
-      <title>Woche 1</title>
-      <description>Erste Folge</description>
-      <guid>lucamariaaa-private-podcast-woche-1</guid>
-      <enclosure url="https://raw.githubusercontent.com/lucamariaaa/private-podcast/main/episodes/test4.m4a"
-                 type="audio/mp4" />
+      <title>Kalenderwoche 1</title>
+      <description>Gedanken und Updates aus KW 1.</description>
+      <itunes:summary>Gedanken und Updates aus KW 1.</itunes:summary>
+      <guid>lucamariaaa-private-podcast-kw-1</guid>
+
+      <enclosure
+        url="https://raw.githubusercontent.com/lucamariaaa/private-podcast/main/episodes/test4.m4a"
+        type="audio/mp4"/>
     </item>
 
   </channel>
