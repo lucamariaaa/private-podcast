@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Privater Podcast</title>
+    <link>https://lucamariaaa.github.io/private-podcast/</link>
+    <description>Nur für ausgewählte Personen.</description>
+    <language>de</language>
+
+    <item>
+      <title>Woche 1</title>
+      <description>Erste Folge</description>
+      <guid>lucamariaaa-private-podcast-woche-1</guid>
+      <enclosure url="https://raw.githubusercontent.com/lucamariaaa/private-podcast/main/episodes/test4.m4a"
+                 type="audio/mp4" />
+    </item>
+
+  </channel>
+</rss>
