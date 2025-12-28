@@ -4,14 +4,14 @@
 
   <channel>
     <!-- Podcast allgemein -->
-    <title>Privater Podcast</title>
+    <title>eine woche lucas leben</title>
     <link>https://lucamariaaa.github.io/private-podcast/</link>
-    <description>Ein privater Podcast – wöchentlich nach Kalenderwochen.</description>
+    <description>private podcast</description>
     <language>de</language>
 
     <!-- Apple Podcasts Metadaten -->
     <itunes:author>Luca</itunes:author>
-    <itunes:summary>Ein privater Podcast – wöchentlich nach Kalenderwochen.</itunes:summary>
+    <itunes:summary>private podcast</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://raw.githubusercontent.com/lucamariaaa/private-podcast/main/cover.png"/>
 
